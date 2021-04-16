@@ -21,7 +21,7 @@ public class Autocomplete {
         
         WebElement autocompleteResult = driver.findElement(By.className("pac-item"));
         autocompleteResult.click();
-        
+        //close the chrome browser
         driver.quit();
 	}
 
