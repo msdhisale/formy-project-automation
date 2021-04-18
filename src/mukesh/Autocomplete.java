@@ -21,6 +21,13 @@ public class Autocomplete {
         
         WebElement autocompleteResult = driver.findElement(By.className("pac-item"));
         autocompleteResult.click();
+        if (autocomplete.isDisplayed()){
+            System.out.println("Test Passed!");
+        } else {
+            System.out.println("Test Failed");
+        }
+        Thread.sleep(1000);
+        
         //close the chrome browser
         driver.quit();
 	}
