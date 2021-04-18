@@ -29,7 +29,6 @@ public class Amazon {
             System.out.println("Test Failed");
         }
        
-        //close Chrome
         driver.close();
 
 	}
