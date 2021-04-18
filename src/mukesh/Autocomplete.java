@@ -28,7 +28,6 @@ public class Autocomplete {
         }
         Thread.sleep(1000);
         
-        //close the chrome browser
         driver.quit();
 	}
 
