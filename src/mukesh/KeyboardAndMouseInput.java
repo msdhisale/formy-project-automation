@@ -28,6 +28,7 @@ public class KeyboardAndMouseInput {
             System.out.println("Test Failed");
         }
         Thread.sleep(1000);
+        
         driver.quit();
 	}
 
